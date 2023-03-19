@@ -9,10 +9,10 @@ int main()
 	
 	printf("Digite um numero: ");
 	scanf("%f",&n);
-	printf("Digite o número de elevacao: ");
+	printf("Digite o nÃºmero de elevacao: ");
 	scanf("%f",&y);
 	potenciacao = pow(n,y);
-	printf("O resultado é:",&potenciacao);
+	printf("O resultado Ã©: %f", potenciacao, "\n");
 	system("pause");
 	return 0;
 }
