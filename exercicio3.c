@@ -16,9 +16,9 @@ int main(){
 	printf("Digite o ano em que estamos: \n");
 	scanf("%i", &ano_atual);
 	idade_atual = (ano_atual - ano_nasci);
-	idade_futura - (2050 - ano_nasci);
-	printf("A sua idade atual é de: \n", &idade_atual);
-	printf("E em 2050 você terá essa idade: \n", &idade_futura);
+	idade_futura = (2050 - ano_nasci);
+	printf("A sua idade atual é de: %i\n", idade_atual);
+	printf("E em 2050 você terá essa idade: %i\n", idade_futura);
 	system ("pause");
 	return 0;
 }
