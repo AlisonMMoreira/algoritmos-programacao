@@ -13,11 +13,18 @@ int main(){
 	printf("Digite o segundo valor: ");
 	scanf("%i", &num2);
 	soma = num1 + num2;
-	subtracao = num1 - num2;
 	multiplicacao = num1 * num2;
 	divisao = num1 / num2;
+	if(num1 < num2)
+		subtracao = num2 - num1;
+	else
+		subtracao = num1 - num2;
+	if(num1 < num2)
+		divisao = num2 / num1;
+	else
+		divisao = num1 / num2;
 	printf("Se somados darão o seguinte resultado: %i\n", soma);	
-	printf("Se darão o seguinte resultado: %i\n", subtracao);
+	printf("Se subtraídos darão o seguinte resultado: %i\n", subtracao);
 	printf("Se multiplicados darão: %i\n", multiplicacao);
 	printf("Se divisao darão: %i\n", divisao);
 }
