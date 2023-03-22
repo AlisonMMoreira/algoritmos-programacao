@@ -12,6 +12,8 @@ int main(){
 	scanf("%f", &p_produto);
 	printf("Digite o percentual de desconto: ");
 	scanf("%f", &p_desconto);
+	desconto = (p_produto * p_desconto) / 100;
 	n_p = (p_produto * p_desconto) / 100;
 	printf("O valor total a pagar é de: %.2f: ", n_p);
+	printf("O desconto é de: R$ %.2f\n", n_p);
 }
