@@ -7,9 +7,11 @@
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
-	float produto, reajuste;
+	float produto, reajuste, novoPreco;
 	printf("Digite o valor do produto que você queira comprar: \n");
 	scanf("%f", &produto);
-	reajuste = produto * 1.15;
-	printf("O produto recebeu um reajuste de 15%, ou seja, o preço subiu para: %.2f", reajuste);
+	reajuste = produto * 0.15;
+	novoPreco = produto + reajuste;
+	printf("O produto recebeu um reajuste de 15%%, ou seja, o preço subiu para: R$ %.2f\n", novoPreco);
+	return 0;
 }
