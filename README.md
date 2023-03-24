@@ -1,2 +1,2 @@
 # algoritmos-programacao
-para as aulas do eros
+Como eu comecei a fazer ADS vou começar a colocar todos os exercícios ligados com programação aqui no github, sejam públicos ou privados
