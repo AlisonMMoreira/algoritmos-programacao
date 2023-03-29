@@ -10,10 +10,10 @@ int main(){
 	float salarioBase, salarioReceber, gratificacao, imposto;
 	printf("Digite o sálario base: ");
 	scanf("%f", &salarioBase);
-	gratificacao = salarioBase * 0.10;
-	imposto = salarioBase - 0.8;
+	gratificacao = salarioBase * 0.1;
+	imposto = salarioBase * 0.08;
 	salarioReceber = salarioBase + gratificacao - imposto;
-	printf("O salário total a receber é de: %.2f", salarioReceber);
+	printf("O salário total a receber é de: %.2f\n", salarioReceber);
 	system("pause");
 	return 0;
 }
