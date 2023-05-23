@@ -1,6 +1,5 @@
 /*
-Faça um programa que carregue um vetor com 10 elementos inteiros, calcule e
-mostre:
+Crie um programa que leia um vetor inteiro de 10 posições e mostre-os na sequência.
 */
 
 #include <locale.h>
